@@ -1,0 +1,165 @@
+\documentclass[a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage{listings}
+\usepackage{lmodern}
+\usepackage{amsfonts}
+\usepackage{titling}
+\usepackage{lipsum}
+\usepackage[left=1in, right=1in, bottom=1in, top=1in]{geometry}
+\usepackage{mathtools}
+\usepackage{amsthm}
+\usepackage{tcolorbox}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{makeidx}
+\usepackage{tikz}
+\usepackage{cases}
+\usepackage{apacite}
+\usepackage{tkz-berge}
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\pagestyle{fancy} 
+\usepackage{url}
+\usepackage{tgtermes}
+\usepackage{algorithm2e}
+\usepackage{sectsty}
+\usepackage{subcaption}
+\usepackage{setspace}
+\usepackage{float}
+\usepackage{amsmath, amssymb}
+\rhead{Page~\thepage~of~\pageref{LastPage}.}
+\cfoot{}
+
+% figure support
+\usepackage{import}
+\usepackage{xifthen}
+\pdfminorversion=7
+\usepackage{pdfpages}
+\usepackage{transparent}
+\newcommand{\incfig}[2][1]{%
+    \def\svgwidth{#1\columnwidth}
+    \import{./figures/}{#2.pdf_tex}
+}
+
+%mathstyling
+\theoremstyle{plain}
+\newtheorem{thm}{Theorem}[section]
+\newtheorem{lem}[thm]{Lemma}
+\newtheorem{prop}[thm]{Proposition}
+\newtheorem*{cor}{Corollary}
+
+\theoremstyle{definition}
+\newtheorem{defn}{Definition}[section]
+\newtheorem{conj}{Conjecture}[section]
+\newtheorem{exmp}{Example}[section]
+\newtheorem{axiom}{Axiom}
+\theoremstyle{remark}
+\newtheorem*{rem}{Remark}
+\newtheorem*{note}{Note}
+
+\pdfsuppresswarningpagegroup=1
+
+\begin{document}
+	\begin{titlepage}
+	\begin{center}
+	\large
+	University of Warwick \\
+	Department of Computer Science \\
+	\huge
+	\vspace{50mm}
+	\rule{\linewidth}{0.5pt} \\
+	CS132: Computer Organisaton \& Architecture \\
+	\vspace{5mm}
+	\Large
+	Coursework 2
+	\rule{\linewidth}{0.5pt}
+	\vspace{5mm}
+	\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.4\textwidth]{crest_black.eps}
+	\end{figure}
+	\vspace{33mm}
+	2108182\\
+	Cem Yilmaz\\
+	\today
+	\end{center}
+	\end{titlepage}
+\tableofcontents
+\newpage
+\section{Introduction}
+\subsection{Problem 1}
+
+\subsection{Problem 2}
+\section{Problem 1}
+\subsection{Power set}
+The first problem of coursework $2$ introduces the implementation of a "Power set" in code. However, in order for this code to be written, it is first important to break down as to what requires to actually be defined.
+\begin{tcolorbox}[colback=black!3!white,colframe=black!60!white,title=\begin{defn}Power Set \label{Power Set}\end{defn}]
+The power set of a finite set $S$, denoted as $2^{S}$, is the set that contains all subsets of $S$ as its elements. Formally, 
+\begin{align*}
+	2^{S} = \{ X : X \subseteq S \}
+\end{align*}
+The cardinality of the set (number of elements denoted as $|S|$), is then, as a corollary:
+\begin{align*}
+	|2^{S}|&=2^{|S|} \\
+	       &=\sum_{i=0}^{|S|} {}^{|S|}C_k
+\end{align*}
+Note that for the sake of this paper, we will not be discussing if $S$ is infinite, as the code will be implemented with the assumption that the input is also finite.
+\end{tcolorbox}
+\begin{flushleft}
+And the intuition behind this corollary is important for our implementation, as it in fact gives us a big hint as to how Problem $1$ could be implemented as code. Consider the sets $S = \{x,y\}$, $S' = \{ x,y,z \}$, $2^{S}$ and $2^{S'}$. In terms of decision trees for their power sets, it would be visualised as the following:
+\end{flushleft}
+\begin{figure}[H]
+    \centering
+    \incfig[0.8]{2s}
+    \caption{Visualisation of the power set $2^{S}$}
+    \label{fig:2s}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \incfig[0.9]{2sprime}
+    \caption{Visualisation of the power set $2^{S'}$}
+    \label{fig:2sprime}
+\end{figure}
+\begin{flushleft}
+These figures make it apparent as to how the cardinality $|2^{S}| = 2^{|S|}$ precisely works. That is, for each new element to the set $S$, we must add a new branch of yes or no decisions for all previously existing power set elements. When the answer is no to the new element for all branches, we get $2^{S}$. With all answers yes, we obtain $x \in 2^{S} : x \cup z$. \\
+
+Formally, let us define $S' = S \cup \{ \zeta \}$ where $\zeta$ is the new arbitrary element of a finite set $S$. Then, we can obtain the following formula for their power set:
+\end{flushleft}
+\begin{align*}
+	2^{S^{*}} &= \{ x \in 2^S : x \cup \{ \zeta \}\}\\
+	2^{S'} &= 2^S \cup 2^{S^{*}}
+\end{align*}
+\subsection{Pseudocode}
+Now that the intuition and the mathematical formula has been well defined, we could write the pseudo code that we will implement into C. This will help us plan the structure of what is to come when writing our code.\\
+
+\begin{algorithm}[H]
+	\caption{Power set pseudocode}
+	\KwData{User input of elements into our set $S$ }
+	\KwResult{A printed $2^{S}$ }\\
+
+	Begin \\
+	Take input from user\;
+	Initialise output variable array\;
+	\While{Our counter is not at the size of $|S| + 1$ elements}{
+		Initialise counter $ = 1$\;
+		\eIf{first element}{Add first singleton set to output variable\;}{Add new element to each existing set in output variable and store them in output variable\;}
+		counter $=$ counter$+1$\;
+	}
+	Add empty set to output variable\;
+	Print output variable\;
+	End
+\end{algorithm}
+\begin{flushleft}
+Now that the pseudocode has been defined, we could move onto writing the actual code and explaining each line's design.
+\end{flushleft}
+\subsection{Explanation of code design}
+This section will require that the file $poweset.c$ is opened as the lines of code that are expressed in this section correspond to the lines of code of that file.
+\section{Problem 2}
+
+
+	
+\end{document}
