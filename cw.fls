@@ -383,9 +383,13 @@ INPUT ./figures/2sprime.pdf
 INPUT ./figures/2sprime.pdf
 INPUT ./figures/2sprime.pdf
 INPUT ./figures/2sprime.pdf
+INPUT /usr/share/texmf/tex/latex/tex-gyre/ts1qtm.fd
+INPUT /usr/share/texmf/tex/latex/tex-gyre/ts1qtm.fd
+INPUT /usr/share/texmf/fonts/tfm/public/tex-gyre/ts1-qtmr.tfm
 INPUT cw.aux
 INPUT ./cw.out
 INPUT ./cw.out
+INPUT /usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ts1.enc
 INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc
 INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc
 INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc
