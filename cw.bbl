@@ -1,0 +1,39 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+\APACciteatitle {{Array of Pointers to Strings in C}}}{%
+\APACciteatitle {{Array of Pointers to Strings in C}}}{%
+{\protect \APACyear {2020}}%
+}]{%
+pointer2}
+\APACinsertmetastar {%
+pointer2}%
+{\BBOQ}\APACrefatitle {{Array of Pointers to Strings in C}} {{Array of Pointers
+  to Strings in C}}{\BBCQ}\ [Article].
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+\begin{APACrefURL}
+  [{2022-01-14}]\url{https://overiq.com/c-programming-101/array-of-pointers-to-strings-in-c/}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACciteatitle {{C - Pointers and Strings}}}{%
+\APACciteatitle {{C - Pointers and Strings}}}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+pointer}
+\APACinsertmetastar {%
+pointer}%
+{\BBOQ}\APACrefatitle {{C - Pointers and Strings}} {{C - Pointers and
+  Strings}}{\BBCQ}\ [Article].
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\begin{APACrefURL}
+  [{2022-01-14}]\url{https://dyclassroom.com/c/c-pointers-and-strings}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}
