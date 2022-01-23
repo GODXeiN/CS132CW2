@@ -1,0 +1,4 @@
+this is some file
+with some text
+hello
+this is line 4

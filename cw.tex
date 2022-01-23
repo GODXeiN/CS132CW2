@@ -139,7 +139,7 @@ Now that the intuition and the mathematical formula has been well defined, we co
 \begin{algorithm}[H]
 	\caption{Power set pseudocode}
 	\KwData{User input of elements into our set $S$ }
-	\KwResult{A printed $2^{S}$ }\\
+	\KwResult{A printed $2^{S}$ }
 
 	Begin \\
 	Take input from user\;
@@ -171,7 +171,7 @@ This section will require that the file $powerset.c$ is opened as the lines of c
 		\end{itemize}
 	\item (Lines $104-107$) It was decided that all subsets will be listed in new lines because otherwise it would be a very long singular line and even difficult to read.
 \end{itemize}
-Assumptions include that the set is finite and is not larger or including cardinality size $20$. The reason for this is because $2^{20}>10 ^{6}$. Furthermore, unsigned int was used as the general type for numbers as we cannot have negative numbers and int is sufficient for the size of arrays that we are working with. Error catching was implemented for cardinality size to ensure a smooth run. The number error catching was re-used from coursework $1$. Pointers for strings were used as it is one of the best and compact methods available in C \cite{pointer} \cite{pointer2}.
+Assumptions include that the set is finite and is not larger or including cardinality size $20$. The reason for this is because the stack in the CPU is limited to $8mb$. Increasing this value would not necessarily help much, given that the size set grows exponentially. Re-assigning non-default amount to stack by increasing it is also not necessarily better, as it can lead to stack overflow. Furthermore, unsigned int was used as the general type for numbers as we cannot have negative numbers and int is sufficient for the size of arrays that we are working with. Error catching was implemented for cardinality size to ensure a smooth run. The number error catching was re-used from coursework $1$. Pointers for strings were used as it is one of the best and compact methods available in C \cite{pointer} \cite{pointer2}.
 \newpage
 \subsection{Flowchart}
 \begin{figure}[H]
@@ -182,6 +182,19 @@ Assumptions include that the set is finite and is not larger or including cardin
 \end{figure}
 \newpage
 \section{Problem 2}
+\subsection{Pseudocode}
+\subsection{Explanation of code design}
+\begin{itemize}
+	\item (Lines $20-22$ ) A capacity of $256$ and $128$ was chosen for directory and file respectively as these are likely to be more than enough characters that the user would need.
+	\item (Lines $31-35$) It was chose to add the symbol $\backslash$ between the name and the directory input as in a lot of operating systems, including Windows and Linux, when finding directory location with mouse it does not reveal the final slash.
+	\item (Lines $60-70$ ) Because a lot of operations/functions require the correct input of of information about the file, a method was added to ensure this by repeatedly asking the user again until it is correct.
+	\item (Lines $39-56$ ) This code repeats a lot throughout the file, therefore adding it as a method is sensible. It is used in name input, directory input and forceFixLocation method to ensure give information about whether the user input is a valid input by checking existence.
+	\item (Lines $87-107$) Because of the possibly confusing interface due to the presence of high amount of operations/functions that the user can do, a help function was added.
+	\item (Lines $203-205$ ) The interface includes an "edit" mode for ease of use of the user. That is, the edit mode would display help for the editing of the file they have selected.
+	
+\end{itemize}
+\subsection{Flowchart}
+
 
 \newpage
 \bibliographystyle{apacite}

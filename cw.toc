@@ -7,4 +7,7 @@
 \contentsline {subsection}{\numberline {2.3}Explanation of code design}{4}{subsection.2.3}%
 \contentsline {subsection}{\numberline {2.4}Flowchart}{5}{subsection.2.4}%
 \contentsline {section}{\numberline {3}Problem 2}{6}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Pseudocode}{6}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Explanation of code design}{6}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Flowchart}{6}{subsection.3.3}%
 \contentsline {section}{References}{7}{section*.6}%
