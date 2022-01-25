@@ -185,19 +185,37 @@ Assumptions include that the set is finite and is not larger or including cardin
 \subsection{Pseudocode}
 \subsection{Explanation of code design}
 \begin{itemize}
+	\item Note that for the ease of use the input of directory and name of file were separated. This will allow the user to have a singular working directory with multiple files without having to specify the directory for the file each time.
 	\item (Lines $20-22$ ) A capacity of $256$ and $128$ was chosen for directory and file respectively as these are likely to be more than enough characters that the user would need.
 	\item (Lines $31-35$) It was chose to add the symbol $\backslash$ between the name and the directory input as in a lot of operating systems, including Windows and Linux, when finding directory location with mouse it does not reveal the final slash.
 	\item (Lines $60-70$ ) Because a lot of operations/functions require the correct input of of information about the file, a method was added to ensure this by repeatedly asking the user again until it is correct.
-	\item (Lines $39-56$ ) This code repeats a lot throughout the file, therefore adding it as a method is sensible. It is used in name input, directory input and forceFixLocation method to ensure give information about whether the user input is a valid input by checking existence.
+	\item (Lines $39-56$ ) This code repeats a lot throughout the file, therefore adding it as a method is sensible. The method is used in name input, directory input and forceFixLocation method to ensure that information is given about if the user input is a valid by checking existence.
 	\item (Lines $87-107$) Because of the possibly confusing interface due to the presence of high amount of operations/functions that the user can do, a help function was added.
 	\item (Lines $203-205$ ) The interface includes an "edit" mode for ease of use of the user. That is, the edit mode would display help for the editing of the file they have selected.
 	
 \end{itemize}
+\subsection{Explanation of commands}
+\subsubsection{Default Operations}
+\subsubsection{New Operations}
+Two new operations were added. These operations are the following:
+\begin{itemize}
+	\item Choose directory
+	
+\end{itemize}
+\textbf{Choosing Directory} \\
+\begin{flushleft}
+	
+Choosing directory was chosen
+\end{flushleft}
+\textbf{Unknown} \\
+\begin{flushleft}
+	
+
+\end{flushleft}
 \subsection{Flowchart}
 
 
 \newpage
 \bibliographystyle{apacite}
 \bibliography{bibliography}
-	
 \end{document}

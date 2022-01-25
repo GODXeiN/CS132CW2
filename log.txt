@@ -1,0 +1,120 @@
+Before operation, there are 5 lines in the path /home/godxein/Desktop/CS132CW2/thefile.txt. 
+===================================== 
+The operation deletel was commenced in the path /home/godxein/Desktop/CS132CW2/thefile.txt. 
+Time: 
+After operation, there are 4 lines in the path /home/godxein/Desktop/CS132CW2/thefile.txt. 
+Line 3 was selected. 
+Before operation, there are 4 lines in the path /home/godxein/Desktop/CS132CW2/thefile.txt. 
+The operation deletel was commenced in the path /home/godxein/Desktop/CS132CW2/thefile.txt. 
+Time: 
+After operation, there are 3 lines in the path /home/godxein/Desktop/CS132CW2/thefile.txt. 
+===================================================================================== 
+Line 2 was selected. 
+Program initialised 
+Program initialised 
+Program initialised 
+Before operation, there are 3 lines in the path /home/godxein/Desktop/CS132CW2/thefile.txt. 
+The operation appendl was commenced in the path /home/godxein/Desktop/CS132CW2/thefile.txt. 
+Time: 
+After operation, there are 5 lines in the path /home/godxein/Desktop/CS132CW2/thefile.txt. 
+================================================================================ 
+Before operation, there are 5 lines in the path /home/godxein/Desktop/CS132CW2/thefile.txt. 
+The operation appendl was commenced in the path /home/godxein/Desktop/CS132CW2/thefile.txt. 
+Time: 
+After operation, there are 7 lines in the path /home/godxein/Desktop/CS132CW2/thefile.txt. 
+================================================================================ 
+Before operation, there are 7 lines in the path /home/godxein/Desktop/CS132CW2/thefile.txt. 
+The operation appendl was commenced in the path /home/godxein/Desktop/CS132CW2/thefile.txt. 
+Time: 
+After operation, there are 9 lines in the path /home/godxein/Desktop/CS132CW2/thefile.txt. 
+================================================================================ 
+Program initialised 
+Before operation, there are 9 lines in the path /home/godxein/Desktop/CS132CW2/thefile.txt. 
+The operation appendl was commenced in the path /home/godxein/Desktop/CS132CW2/thefile.txt. 
+Time: 
+After operation, there are 10 lines in the path /home/godxein/Desktop/CS132CW2/thefile.txt. 
+================================================================================ 
+Program initialised 
+Before operation, there are 10 lines in the path /home/godxein/Desktop/CS132CW2/thefile.txt. 
+The operation appendl was commenced in the path /home/godxein/Desktop/CS132CW2/thefile.txt. 
+Time: 
+After operation, there are 11 lines in the path /home/godxein/Desktop/CS132CW2/thefile.txt. 
+================================================================================ 
+Before operation, there are 11 lines in the path /home/godxein/Desktop/CS132CW2/thefile.txt. 
+The operation appendl was commenced in the path /home/godxein/Desktop/CS132CW2/thefile.txt. 
+Time: 
+After operation, there are 13 lines in the path /home/godxein/Desktop/CS132CW2/thefile.txt. 
+================================================================================ 
+Program initialised 
+Before operation, there are 13 lines in the path /home/godxein/Desktop/CS132CW2/thefile.txt. 
+The operation appendl was commenced in the path /home/godxein/Desktop/CS132CW2/thefile.txt. 
+Time: 
+After operation, there are 14 lines in the path /home/godxein/Desktop/CS132CW2/thefile.txt. 
+================================================================================ 
+Program initialised 
+Before operation, there are 14 lines in the path /home/godxein/Desktop/CS132CW2/thefile.txt. 
+The operation appendl was commenced in the path /home/godxein/Desktop/CS132CW2/thefile.txt. 
+Time: 
+After operation, there are 15 lines in the path /home/godxein/Desktop/CS132CW2/thefile.txt. 
+================================================================================ 
+Program initialised 
+Before operation, there are 15 lines in the path /home/godxein/Desktop/CS132CW2/thefile.txt. 
+The operation appendl was commenced in the path /home/godxein/Desktop/CS132CW2/thefile.txt. 
+Time: 
+After operation, there are 16 lines in the path /home/godxein/Desktop/CS132CW2/thefile.txt. 
+================================================================================ 
+Program initialised 
+Before operation, there are 16 lines in the path /home/godxein/Desktop/CS132CW2/thefile.txt. 
+The operation appendl was commenced in the path /home/godxein/Desktop/CS132CW2/thefile.txt. 
+Time: 
+After operation, there are 17 lines in the path /home/godxein/Desktop/CS132CW2/thefile.txt. 
+================================================================================ 
+Program initialised 
+Before operation, there are 17 lines in the path /home/godxein/Desktop/CS132CW2/thefile.txt. 
+The operation appendl was commenced in the path /home/godxein/Desktop/CS132CW2/thefile.txt. 
+Time: 
+After operation, there are 18 lines in the path /home/godxein/Desktop/CS132CW2/thefile.txt. 
+================================================================================ 
+Program initialised 
+Before operation, there are 18 lines in the path /home/godxein/Desktop/CS132CW2/thefile.txt. 
+The operation appendl was commenced in the path /home/godxein/Desktop/CS132CW2/thefile.txt. 
+Time: 
+After operation, there are 19 lines in the path /home/godxein/Desktop/CS132CW2/thefile.txt. 
+================================================================================ 
+Program initialised 
+Program initialised 
+Before operation, there are 19 lines in the path /home/godxein/Desktop/CS132CW2/thefile.txt. 
+The operation appendl was commenced in the path /home/godxein/Desktop/CS132CW2/thefile.txt. 
+Time: 
+After operation, there are 21 lines in the path /home/godxein/Desktop/CS132CW2/thefile.txt. 
+================================================================================ 
+Program initialised 
+Before operation, there are 21 lines in the path /home/godxein/Desktop/CS132CW2/thefile.txt. 
+The operation appendl was commenced in the path /home/godxein/Desktop/CS132CW2/thefile.txt. 
+Time: 
+After operation, there are 22 lines in the path /home/godxein/Desktop/CS132CW2/thefile.txt. 
+================================================================================ 
+Program initialised 
+Before operation, there are 6 lines in the path /home/godxein/Desktop/CS132CW2/thefile.txt. 
+The operation appendl was commenced in the path /home/godxein/Desktop/CS132CW2/thefile.txt. 
+Time: 
+After operation, there are 7 lines in the path /home/godxein/Desktop/CS132CW2/thefile.txt. 
+================================================================================ 
+Program initialised 
+Before operation, there are 7 lines in the path /home/godxein/Desktop/CS132CW2/thefile.txt. 
+The operation appendl was commenced in the path /home/godxein/Desktop/CS132CW2/thefile.txt. 
+Time: 
+After operation, there are 8 lines in the path /home/godxein/Desktop/CS132CW2/thefile.txt. 
+================================================================================ 
+Program initialised 
+Program initialised 
+Program initialised 
+Before operation, there are 8 lines in the path /home/godxein/Desktop/CS132CW2/thefile.txt. 
+The operation pastel was commenced in the path /home/godxein/Desktop/CS132CW2/thefile.txt. 
+After operation, there are 9 lines in the path /home/godxein/Desktop/CS132CW2/thefile.txt. 
+================================================================================ 
+Program initialised 
+Before operation, there are 9 lines in the path /home/godxein/Desktop/CS132CW2/thefile.txt. 
+The operation pastel was commenced in the path /home/godxein/Desktop/CS132CW2/thefile.txt. 
+After operation, there are 10 lines in the path /home/godxein/Desktop/CS132CW2/thefile.txt. 
+================================================================================ 
