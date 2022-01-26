@@ -7,10 +7,9 @@
 \contentsline {subsection}{\numberline {2.3}Explanation of code design}{4}{subsection.2.3}%
 \contentsline {subsection}{\numberline {2.4}Flowchart}{5}{subsection.2.4}%
 \contentsline {section}{\numberline {3}Problem 2}{6}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Pseudocode}{6}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Explanation of code design}{6}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Explanation of commands}{6}{subsection.3.3}%
-\contentsline {subsubsection}{\numberline {3.3.1}Default Operations}{6}{subsubsection.3.3.1}%
-\contentsline {subsubsection}{\numberline {3.3.2}New Operations}{6}{subsubsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.4}Flowchart}{6}{subsection.3.4}%
-\contentsline {section}{References}{7}{section*.6}%
+\contentsline {subsection}{\numberline {3.1}Important Remarks and Explanations}{6}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Explanation of commands}{10}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Explanation of all Operations}{10}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Use of Newly Implemented Operations}{20}{subsubsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.3}Log}{20}{subsection.3.3}%
+\contentsline {section}{References}{22}{section*.6}%

@@ -118,3 +118,21 @@ Before operation, there are 9 lines in the path /home/godxein/Desktop/CS132CW2/t
 The operation pastel was commenced in the path /home/godxein/Desktop/CS132CW2/thefile.txt. 
 After operation, there are 10 lines in the path /home/godxein/Desktop/CS132CW2/thefile.txt. 
 ================================================================================ 
+Program initialised 
+Before operation, there are 10 lines in the path /home/godxein/Desktop/CS132CW2/thefile.txt. 
+The operation deletel was commenced in the path /home/godxein/Desktop/CS132CW2/thefile.txt. 
+After operation, there are 10 lines in the path /home/godxein/Desktop/CS132CW2/thefile.txt. 
+================================================================================ 
+Program closed using exit 
+Program initialised 
+Before operation, there are 10 lines in the path /home/godxein/Desktop/CS132CW2/thefile.txt. 
+The operation deletel was commenced in the path /home/godxein/Desktop/CS132CW2/thefile.txt. 
+After operation, there are 10 lines in the path /home/godxein/Desktop/CS132CW2/thefile.txt. 
+================================================================================ 
+Program closed using exit 
+Program initialised 
+Before operation, there are 10 lines in the path /home/godxein/Desktop/CS132CW2/thefile.txt. 
+The operation deletel was commenced in the path /home/godxein/Desktop/CS132CW2/thefile.txt. 
+After operation, there are 9 lines in the path /home/godxein/Desktop/CS132CW2/thefile.txt. 
+================================================================================ 
+Program closed using exit 

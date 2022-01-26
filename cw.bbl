@@ -19,6 +19,24 @@ pointer2}%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+\APACciteatitle {{C File Handling}}}{%
+\APACciteatitle {{C File Handling}}}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+cio}
+\APACinsertmetastar {%
+cio}%
+{\BBOQ}\APACrefatitle {{C File Handling}} {{C File Handling}}{\BBCQ}\
+  [Article].
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\begin{APACrefURL}
+  [{2022-01-20}]\url{https://www.programiz.com/c-programming/c-file-input-output}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 \APACciteatitle {{C - Pointers and Strings}}}{%
 \APACciteatitle {{C - Pointers and Strings}}}{%
 {\protect \APACyear {{\protect \bibnodate {}}}}%
@@ -33,6 +51,81 @@ pointer}%
 \newblock
 \begin{APACrefURL}
   [{2022-01-14}]\url{https://dyclassroom.com/c/c-pointers-and-strings}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+hmjd%
+}{%
+hmjd%
+}{%
+{\protect \APACyear {2019}}%
+}]{%
+stack}
+\APACinsertmetastar {%
+stack}%
+\begin{APACrefauthors}%
+hmjd.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{How can I check if a directory exists?}} {{How can I
+  check if a directory exists?}}{\BBCQ}\ [Article].
+\newblock
+\begin{APACrefURL}
+  [{2022-01-21}]\url{https://stackoverflow.com/questions/12510874/how-can-i-check-if-a-directory-exists}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+invalid_id%
+}{%
+invalid_id%
+}{%
+{\protect \APACyear {2014}}%
+}]{%
+stack3}
+\APACinsertmetastar {%
+stack3}%
+\begin{APACrefauthors}%
+invalid_id.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{C Programming - Read specific line from text file}} {{C
+  Programming - Read specific line from text file}}{\BBCQ}\ [Article].
+\newblock
+\begin{APACrefURL}
+  [{2022-01-23}]\url{https://stackoverflow.com/questions/21114591/c-programming-read-specific-line-from-text-file}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+SB%
+}{%
+SB%
+}{%
+{\protect \APACyear {2022}}%
+}]{%
+stack2}
+\APACinsertmetastar {%
+stack2}%
+\begin{APACrefauthors}%
+SB, K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Why is “while ( !feof (file) )” always wrong?}}
+  {{Why is “while ( !feof (file) )” always wrong?}}{\BBCQ}\ [Article].
+\newblock
+\begin{APACrefURL}
+  [{2022-01-20}]\url{https://stackoverflow.com/questions/5431941/why-is-while-feof-file-always-wrong}
   \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
